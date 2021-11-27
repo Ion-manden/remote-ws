@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  awk:
+    build:
+      context: .
+      dockerfile: arch.Dockerfile 
+
+  uwk:
+    build:
+      context: .
+      dockerfile: ubuntu.Dockerfile 
+
